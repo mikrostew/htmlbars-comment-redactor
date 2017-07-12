@@ -1,26 +1,21 @@
+[![Build Status](https://travis-ci.org/mikrostew/htmlbars-comment-redactor.svg?branch=master)](https://travis-ci.org/mikrostew/htmlbars-comment-redactor)
+
 # htmlbars-comment-redactor
 
-This README outlines the details of collaborating on this Ember addon.
+This addon redacts the contents of any HTML comments in you handlebars templates.
 
-## Installation
+So a template like this:
 
-* `git clone <repository-url>` this repository
-* `cd htmlbars-comment-redactor`
-* `npm install`
+```html
+<div id="{{someVar}}">
+  <!-- Here is a witty comment -->
+</div>
+```
 
-## Running
+renders as:
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+```html
+<div id="whatever">
+  <!--[REDACTED]-->
+</div>
+```
