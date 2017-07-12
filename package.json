@@ -1,6 +1,6 @@
 {
   "name": "htmlbars-comment-redactor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ember addon for redacting html comments in handlebars templates",
   "keywords": [
     "ember-addon"
