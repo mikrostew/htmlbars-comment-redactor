@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/mikrostew/htmlbars-comment-redactor.svg?branch=master)](https://travis-ci.org/mikrostew/htmlbars-comment-redactor)
+# ⛔️ [DEPRECATED] htmlbars-comment-redactor
 
-# htmlbars-comment-redactor
+This repository is deprecated, and no longer maintained.
 
 This addon redacts the contents of any HTML comments in you handlebars templates.
 
